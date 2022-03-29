@@ -14,4 +14,5 @@ elif a > 501 and a <= 700:
 else:
     b = 120*2.10 + 210*3.02 + 170*4.39 + 200*4.97 + (a-700)*5.63
     c = 120*2.10 + 210*2.68 + 170*3.61 + 200*4.01 + (a-700)*4.50
-print("Summer months:",b,"Non-Summer months",c)
+print("Summer months:%.2f" %(b))
+print("Non-Summer months:%.2f" %(c))
