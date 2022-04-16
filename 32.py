@@ -1,6 +1,3 @@
-from code import InteractiveInterpreter
-
-
 m = int(input("小明身上有幾元:"))
 n = int(input("販賣機有幾種飲料:"))
 a = 0
