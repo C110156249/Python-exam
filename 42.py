@@ -1,6 +1,3 @@
-from traceback import print_tb
-
-
 a =int(input("a:"))
 b =int(input("b:"))
 c =int(input("c:"))
