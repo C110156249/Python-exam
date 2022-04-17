@@ -1,0 +1,6 @@
+a = (input("請輸入英文句子:"))
+a = a.replace(" ","1")
+a = a.replace(".","1")
+b = a.split("1")
+b.reverse()
+print("輸出結果:",b)
