@@ -1,6 +1,3 @@
-from gettext import find
-
-
 a = list(input("輸入自傳(至少10個字):"))
 a.remove("，")
 a.remove("。")
