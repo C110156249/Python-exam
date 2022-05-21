@@ -1,6 +1,3 @@
-from sys import api_version
-
-
 a = (input("輸入值為:"))
 a = a.split(" ")
 a.sort()
