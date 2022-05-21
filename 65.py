@@ -1,0 +1,7 @@
+a = (input("請輸入A的好友:"))
+b = (input("請輸入B的好友:"))
+a = a.split(" ")
+b = b.split(" ")
+a1 = set(a)
+b1 = set(b)
+print(len(a1&b1))
